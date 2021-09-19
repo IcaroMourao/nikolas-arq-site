@@ -43,11 +43,11 @@ export default {
           route: '/projetos',
           routeName: 'projects',
         },
-        {
-          name: 'Outros serviços',
-          route: '/outros-servicos',
-          routeName: '',
-        },
+        // {
+        //   name: 'Outros serviços',
+        //   route: '/outros-servicos',
+        //   routeName: '',
+        // },
       ],
     };
   },

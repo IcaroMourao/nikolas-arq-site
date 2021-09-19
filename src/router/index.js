@@ -11,8 +11,6 @@ import Projects from '@/views/projects/Projects.vue';
 import ProjectPicker from '@/views/projects/ProjectPicker.vue';
 import Project from '@/views/projects/Project.vue';
 
-import AnotherServices from '@/views/another-services/AnotherServices.vue';
-import Services from '@/views/another-services/Services.vue';
 import Contact from '@/views/another-services/Contact.vue';
 
 Vue.use(VueRouter);
@@ -73,28 +71,37 @@ const routes = [
     ],
   },
   {
-    path: '/outros-servicos',
-    component: AnotherServices,
-    children: [
-      {
-        path: '',
-        name: 'services',
-        component: Services,
-        meta: {
-          scrollToTop: true,
-        },
-      },
-      {
-        path: 'contato',
-        name: 'contact',
-        component: Contact,
-        props: true,
-        meta: {
-          scrollToTop: true,
-        },
-      },
-    ],
+    path: '/contato',
+    name: 'contact',
+    component: Contact,
+    props: true,
+    meta: {
+      scrollToTop: true,
+    },
   },
+  // {
+  //   path: '/outros-servicos',
+  //   component: AnotherServices,
+  //   children: [
+  //     {
+  //       path: '',
+  //       name: 'services',
+  //       component: Services,
+  //       meta: {
+  //         scrollToTop: true,
+  //       },
+  //     },
+  //     {
+  //       path: 'contato',
+  //       name: 'contact',
+  //       component: Contact,
+  //       props: true,
+  //       meta: {
+  //         scrollToTop: true,
+  //       },
+  //     },
+  //   ],
+  // },
   {
     path: '/*',
     redirect: '/',

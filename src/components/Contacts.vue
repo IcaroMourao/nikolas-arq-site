@@ -14,7 +14,7 @@
         <div class="service-link-wrapper">
           <router-link
             class="service-link"
-            to="/outros-servicos/contato">
+            to="/contato">
               Contate-nos >
           </router-link>
         </div>
@@ -36,7 +36,7 @@
         <div class="service-link-wrapper">
           <router-link
             class="service-link consulting"
-            to="/outros-servicos/contato">
+            to="/contato">
               Contate-nos >
           </router-link>
         </div>
