@@ -25,7 +25,7 @@ export default class ProfessionalItems {
       instagram: 'https://www.instagram.com/icaromourao/',
       github: 'https://github.com/IcaroMourao',
       linkedin: 'https://www.linkedin.com/in/icaromourao/',
-      image: require('@/assets/images/about/icaro.jpeg'),
+      image: require('@/assets/images/about/icaro.jpg'),
     },
   ];
 }

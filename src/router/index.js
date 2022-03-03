@@ -79,29 +79,6 @@ const routes = [
       scrollToTop: true,
     },
   },
-  // {
-  //   path: '/outros-servicos',
-  //   component: AnotherServices,
-  //   children: [
-  //     {
-  //       path: '',
-  //       name: 'services',
-  //       component: Services,
-  //       meta: {
-  //         scrollToTop: true,
-  //       },
-  //     },
-  //     {
-  //       path: 'contato',
-  //       name: 'contact',
-  //       component: Contact,
-  //       props: true,
-  //       meta: {
-  //         scrollToTop: true,
-  //       },
-  //     },
-  //   ],
-  // },
   {
     path: '/*',
     redirect: '/',

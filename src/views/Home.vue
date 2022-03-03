@@ -12,21 +12,18 @@
       <Loader v-if="isProjectsRequesting  || !isUserLoaded" :fullScreen="false"/>
       <FeaturedProjects v-else/>
     </div>
-    <Contacts />
   </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
 
-import Contacts from '@/components/Contacts.vue';
 import FeaturedProjects from '@/components/FeaturedProjects.vue';
 import Loader from '@/components/Loader.vue';
 
 export default {
   name: 'Home',
   components: {
-    Contacts,
     FeaturedProjects,
     Loader,
   },
